@@ -1,0 +1,253 @@
+/* variables */
+.ui-dialog {
+  border: 2px solid #7ea001;
+  border-radius: 0;
+  background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+  box-shadow: 5px 10px 50px black;
+}
+
+.ui-widget-header {
+  background: #7ea001;
+  border: none;
+  border-radius: 0;
+}
+
+body {
+  font-size: 16px;
+  /* utilities */
+}
+body main {
+  font-family: "Lato", sans-serif;
+}
+body main .navbar-light .navbar-nav .nav-link {
+  color: #7ea001;
+}
+body main nav .navbar-brand {
+  max-width: 20%;
+}
+@media (max-width: 500px) {
+  body main nav .navbar-brand {
+    max-width: 50%;
+  }
+}
+body main nav .dropdown-menu {
+  border: 0;
+  border-radius: 0;
+  background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+  box-shadow: 5px 8px 0 rgba(0, 82, 155, 0.95);
+}
+body main nav .dropdown-menu .dropdown-item:hover {
+  background: transparent;
+}
+body main nav .navbar-toggler {
+  border: none;
+}
+@media (min-width: 900px) {
+  body .large-container {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  body .service-image {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 500px) {
+  body .hide-on-mobile {
+    display: none;
+  }
+}
+body .banner {
+  background-size: cover;
+}
+@media (min-width: 900px) {
+  body .banner {
+    height: 60vh;
+  }
+}
+body .wow {
+  visibility: hidden;
+}
+@media (max-width: 500px) {
+  body .mobile-no-margin {
+    margin: 0 !important;
+  }
+  body .mobile-no-padding {
+    padding: 0 !important;
+  }
+  body .dropdown-menu {
+    margin-bottom: 15px;
+  }
+  body .large-text {
+    font-size: 2rem !important;
+  }
+}
+body img {
+  max-width: 100%;
+}
+body .w-80 {
+  width: 80%;
+}
+body .absolute-image {
+  position: absolute;
+  top: -200px;
+  left: 34vw;
+  max-width: 59%;
+}
+@media (max-width: 500px) {
+  body .absolute-image {
+    display: none;
+  }
+}
+body .block {
+  display: block;
+}
+body .inline-block {
+  display: inline-block;
+}
+body .text-shadow {
+  text-shadow: 1px 1px 8px #00529b;
+}
+body .spread-box-shadow {
+  box-shadow: 1px 3px 25px #a3a3a3;
+}
+body .box-shadow {
+  box-shadow: 5px 8px 0 rgba(0, 82, 155, 0.95);
+}
+body .weight-bold {
+  font-weight: 700;
+}
+body .weight-thin {
+  font-weight: 300;
+}
+body .weight-med {
+  font-weight: 400;
+}
+body .small-text {
+  font-size: 0.9rem;
+}
+body .small-med-text {
+  font-size: 1.5rem;
+}
+body .med-text {
+  font-size: 2rem;
+}
+body .large-text {
+  font-size: 3rem;
+}
+body .underline {
+  text-decoration: underline;
+}
+body .negative-margin-top {
+  margin-top: -25px;
+}
+body .top-z-index {
+  z-index: 10;
+}
+body h1 {
+  color: #b6e800;
+  text-shadow: 2px 2px 0px #7ea001;
+}
+body h2 {
+  color: #42f445;
+}
+body .h3 {
+  color: #7ea001;
+}
+body .blue-border-bottom {
+  border-bottom: 2px solid #00b7ff;
+}
+@media (max-width: 500px) {
+  body .blue-border-bottom {
+    border-bottom: 0;
+  }
+}
+body .text-color-piercing {
+  color: #42f445;
+}
+body table {
+  border: 2px solid #7ea001;
+}
+body table thead {
+  background: #7ea001;
+}
+body .btn-custom {
+  border-radius: 0;
+  background: #7ea001;
+  box-shadow: 2px 5px 3px #005115;
+  transition: background 0.4s ease;
+}
+body .btn-custom:hover {
+  background: #00b7ff;
+  box-shadow: 2px 5px 3px #00529b;
+}
+body .btn-custom-light {
+  border-radius: 0;
+  background: #00b7ff;
+}
+body .btn-custom-light:hover {
+  box-shadow: 2px 5px 3px #005115;
+}
+body .search-input {
+  border-width: 0 0 2px 0;
+  border-color: #7ea001;
+  border-radius: 0;
+  outline: none;
+}
+body .product-border {
+  border: 3px solid #f9f9f9;
+}
+body .bg-main {
+  background: #3192bc;
+}
+body .bg-main-transparent {
+  background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+}
+body .home {
+  width: 100%;
+  background: url("https://storage.googleapis.com/blog-setmore/1/spa-banner.png");
+  background-size: cover;
+}
+@media (min-width: 500px) {
+  body .home {
+    height: 90vh;
+  }
+}
+body .therapist-intro {
+  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-101405.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+body .bg-light-transparent {
+  background: rgba(255, 255, 255, 0.7);
+}
+body .clinic-section {
+  background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+}
+body .why-neshama {
+  background: url("http://aimnaturalhealing.com/wp-content/uploads/2016/08/bigstock-Spa-still-life-with-water-lily-67474792-e1471659966904.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+body footer {
+  background: url("/assets/footer-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+body footer .overlay {
+  background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+}
+body footer .form-control {
+  border-radius: 0;
+  box-shadow: 2px 5px 0px #7ea001;
+}
+body footer iframe {
+  max-width: 100%;
+}
+body footer label {
+  font-weight: 300;
+  display: block;
+}
+
+/*# sourceMappingURL=styles.css.map */
