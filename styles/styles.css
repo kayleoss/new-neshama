@@ -57,6 +57,10 @@ body main nav .navbar-toggler {
   body .hide-on-mobile {
     display: none;
   }
+  body main {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 body .banner {
   background-size: cover;
@@ -81,6 +85,10 @@ body .wow {
   }
   body .large-text {
     font-size: 2rem !important;
+  }
+  body .small-padded-container {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 body img {
@@ -196,13 +204,17 @@ body .search-input {
   outline: none;
 }
 body .product-border {
-  border: 3px solid #f9f9f9;
+  background: #fff;
+  box-shadow: 1px 2px 8px #948d91;
 }
 body .bg-main {
   background: #3192bc;
 }
 body .bg-main-transparent {
   background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
+}
+body .bg-light-opaque {
+  background: #f5faff;
 }
 body .home {
   width: 100%;

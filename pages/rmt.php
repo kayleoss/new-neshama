@@ -6,7 +6,7 @@ $banner_heading = "Registered Massage Therapy";
 $banner_text = "A variety of different massage services and techniques are available. Our Massage Techniques are tailored for your needs. Whether you have back pain, shoulder pain, stress or any other discomfort, our main goal is to help you in your healing process.";
 $banner_img_src = "/assets/rmt.jpeg";
 $title = "RMT Services";
-$description ="Your first appointment includes a <span class='blue-border-bottom'>free diagnosis session</span> to find the best treatment plan based on your needs. After your treatment, the therapist will consult with you regarding after-care and nutritional advice for the best results.";
+$description ="After your treatment, the therapist will consult with you regarding <span class='blue-border-bottom'>after-care and nutritional advice</span> for the best results.";
 
 $services = array();
 $services[0]->name = "Classical Massage";

@@ -7,8 +7,8 @@
 		</div>
 		<p class="small-med-text text-light weight-med col-md-6 m-auto wow fadeIn text-shadow pt-2 pb-2" data-wow-delay="0.2s">Get Registered Massage Therapy and Traditional Chinese Medicine treatment at Neshama Therapy in the heart of downtown Toronto. Your first treatment includes a free diagnosis session.</p>
 		<div class="col-sm-12 mt-3 text-center">
-			<a href="https://www.massagebook.com/profiles/publicBooking/1676236" class="btn btn-custom text-light" target="_blank">Book Now</a>
-			<a href="/pages/all-services.php" class="btn btn-custom-light text-light ml-3">See Our Services</a>
+			<a href="https://www.massagebook.com/profiles/publicBooking/1676236" class="btn btn-custom-light text-light" target="_blank">Book Now</a>
+			<a href="/pages/all-services" class="btn btn-custom text-light ml-3">See Our Services</a>
 		</div>
 	</div>
 </section>
@@ -25,7 +25,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="https://scontent.fyto1-1.fna.fbcdn.net/v/t31.0-8/10275467_10152905793766186_7515387043478922662_o.jpg?_nc_cat=104&oh=376228e9d076a18324f97f94a9f7ecd4&oe=5C2EDDA6" class="box-shadow">
+					<img src="/assets/therapy_room1.jpg" class="box-shadow">
 					<h4 class="mt-3 text-center text-light text-shadow">Registered Massage Therapy</h4>
 					<p class="weight-thin text-light">We provide Registered Massage Therapy treatments like Sports Massage, Pregnancy Massage, & Classical Massage.</p>
 					<div class="text-center">
@@ -37,7 +37,7 @@
 					<h4 class="mt-3 text-center text-light text-shadow">Handmade Unique Products</h4>
 					<p class="weight-thin text-light">We make balms and oils by hand! Get in touch with us or ask your therapist during the treatment to learn more.</p>
 					<div class="text-center">
-						<a href="/pages/products.php" class="weight-bold btn btn-custom text-light mb-3">Learn More</a>
+						<a href="/pages/products" class="weight-bold btn btn-custom text-light mb-3">Learn More</a>
 					</div>
 				</div>
 			</div>

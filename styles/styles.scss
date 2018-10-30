@@ -71,6 +71,10 @@ body {
     .hide-on-mobile {
       display: none;
     }
+    main {
+      max-width: 100%;
+      overflow-x:hidden;
+    }
   }
   .banner {
     background-size: cover;
@@ -93,6 +97,10 @@ body {
     }
     .large-text {
       font-size: 2rem !important;
+    }
+    .small-padded-container {
+      margin-left: 40px;
+      margin-right: 40px;
     }
   }
   img {
@@ -206,13 +214,17 @@ body {
     outline: none;
   }
   .product-border {
-    border: 3px solid #f9f9f9;
+    background: #fff;
+    box-shadow: 1px 2px 8px #948d91;
   }
   .bg-main {
     background: $fourth-color;
   }
   .bg-main-transparent {
     background: $main-gradient;
+  }
+  .bg-light-opaque {
+    background: #f5faff;
   }
   .home {
     width: 100%;

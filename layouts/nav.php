@@ -13,7 +13,7 @@
                   <img src="/assets/navbar-logo.png" class="nav-logo w-100">
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="<?= $navlink_style; ?>">
-                <span class="navbar-toggler-icon" style="<?= $navlink_style; ?>"></span>
+                <span style="<?= $navlink_style; ?>"><i class="fas fa-ellipsis-v"></i></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -22,9 +22,9 @@
                       Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item text-light" href="/pages/rmt.php">Registered Massage Therapy</a>
-                      <a class="dropdown-item text-light" href="/pages/tcm.php">Traditional Chinese Medicine</a>
-                      <a class="dropdown-item text-light" href="/pages/all-services.php">All Services</a>
+                      <a class="dropdown-item text-light" href="/pages/rmt">Registered Massage Therapy</a>
+                      <a class="dropdown-item text-light" href="/pages/tcm">Traditional Chinese Medicine</a>
+                      <a class="dropdown-item text-light" href="/pages/all-services">All Services</a>
                     </div>
                   </li>
                   <li class="nav-item dropdown">
@@ -32,15 +32,14 @@
                       More
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item text-light" href="/pages/firstvisit.php">First Visit</a>
-                      <a class="dropdown-item text-light" href="/pages/rates.php">Rates</a>
-                      <a class="dropdown-item text-light" href="/pages/faq.php">Frequently Asked Questions</a>
+                      <a class="dropdown-item text-light" href="/pages/firstvisit">First Visit</a>
+                      <a class="dropdown-item text-light" href="/pages/rates">Rates</a>
                       <a class="dropdown-item text-light" href="#contact">Contact Us</a>
                       <a class="btn btn-custom text-light ml-3 mt-3 mb-3" href="https://www.massagebook.com/profiles/publicBooking/1676236" target="_blank">Book Now</a>
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a style="<?= $navlink_style; ?>" class="nav-link weight-bold" href="/pages/products.php">Natural Products</a>
+                    <a style="<?= $navlink_style; ?>" class="nav-link weight-bold" href="/pages/products">Natural Products</a>
                   </li>
                 </ul>
                 <div class="form-inline my-2 my-lg-0 hide-on-mobile">
