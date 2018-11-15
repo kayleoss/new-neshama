@@ -3,7 +3,7 @@ $page_title = "Neshama Therapy: TCM, Traditional Chinese Medicine";
 include "../layouts/head.php";
 include "../layouts/nav.php";
 $banner_img_src = "https://scontent.fyto1-1.fna.fbcdn.net/v/t31.0-8/11336914_10152905789036186_4013228155704226016_o.jpg?_nc_cat=111&oh=8369923bb2d95160b8b98ca5cdc7b02a&oe=5C1A6C24";
-$banner_text = "A variety of different TCM treatments and techniques are available. Our most effective Traditional Chinese Medicine treatments have been a combination of various techniques. We are passionate about our patients, and we tailor every treatment to provide the best results for your condition.";
+$banner_text = "A variety of different TCM treatments and techniques are available! Our most effective Traditional Chinese Medicine treatments have been a combination of various techniques. We are passionate about our patients, and we tailor every treatment to provide the best results for your condition.";
 $banner_heading = "Traditional Chinese Medicine";
 $services = array();
 

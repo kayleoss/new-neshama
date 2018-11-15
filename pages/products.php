@@ -31,11 +31,12 @@ include "../layouts/nav.php";
         <div class="product-border p-4">
           <img src="../assets/bodyscrub.jpg" class="box-shadow service-image" />
           <a href="/pages/bodyscrub"><h4 class="text-center text-info mt-4">Body Scrub</h4></a>
-          <b class="text-success mt-3 block text-center mb-3">$60 / 250mL</b>
+          <b class="text-success mt-3 block text-center mb-3">$60 CAD</b>
           <ul>
             <li>Organic sweet almond oil</li>
-            <li>Coarse sea salt</li>
+            <li>Finely ground sea salt</li>
             <li>Essential Oils: tea tree, bergamot, ylang ylang and lavender</li>
+            <br />
           </ul>
           <a href="/pages/bodyscrub" class="text-center block w-100 mb-3">Read more about this product</a>
           <div class="text-center">
@@ -47,12 +48,13 @@ include "../layouts/nav.php";
         <div class="product-border p-4">
           <img src="../assets/facialcleanser.jpg" class="box-shadow service-image" />
           <a href="/pages/facialcleanser"><h4 class="text-center text-info mt-4">Facial Cleanser</h4></a>
-          <b class="text-success mt-3 block text-center mb-3">$60 / 250mL</b>
+          <b class="text-success mt-3 block text-center mb-3">$60 CAD</b>
           <ul>
             <li>Finely ground sea salt</li>
             <li>Organic sweet almond oil</li>
             <li>Tea tree oil</li>
             <li>Vitamin E capsule</li>
+            <br />
           </ul>
           <a href="/pages/facialcleanser" class="text-center block w-100 mb-3">Read more about this product</a>
           <div class="text-center">
@@ -64,12 +66,13 @@ include "../layouts/nav.php";
         <div class="product-border p-4">
           <img src="../assets/footbalm.jpg" class="box-shadow service-image" />
           <a href="/pages/footbalm"><h4 class="text-center text-info mt-4">Peppermint Foot Balm</h4></a>
-          <b class="text-success mt-3 block text-center mb-3">$60 / 250mL</b>
+          <b class="text-success mt-3 block text-center mb-3">$60 CAD</b>
           <ul>
             <li>Shea butter</li>
             <li>Organic virgin coconut oil</li>
             <li>Peppermint essential oil</li>
             <li>Eucalyptus essential oil</li>
+            <li>Rosemary essential oil</li>
           </ul>
           <a href="/pages/footbalm" class="text-center block w-100 mb-3">Read more about this product</a>
           <div class="text-center">

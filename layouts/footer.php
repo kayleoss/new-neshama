@@ -10,7 +10,7 @@
             <div class="col-sm-4 text-light">
               <p class="weight-bold underline">Contact Us:</p>
               <p><span class="weight-med">By Phone</span>: (416)-999-8640</p>
-              <p><span class="weight-med">By Email</span>: <a class="text-warning underline" href="mailto:neshamatherapy@gmail.com">neshamatherapy@gmail.com</a></p>
+              <p><span class="weight-med">By Email</span>: <a class="text-warning underline" href="mailto:chenweinberg@gmail.com">chenweinberg@gmail.com</a></p>
               <p>On Social Media: </p>
               <div class="row text-shadow pr-5 mb-3">
                 <div class="col-2">
@@ -39,6 +39,7 @@
                 <input type="email" class="form-control mt-2" placeholder="b.smith@gmail.com" required name="email"/>
                 <label for="time-to-call" class="mt-2">Best Time For Us To Call You</label>
                 <select name="time-to-call" class="form-control mt-2">
+                  <option value="8:00AM">8AM</option>
                   <option value="9:00AM">9AM</option>
                   <option value="10:00AM">10AM</option>
                   <option value="11:00AM">11AM</option>
@@ -68,11 +69,11 @@
               <p class="weight-bold underline">Our Hours Of Operation: </p>
               <p class="weight-med mt-3">2 Carlton St, Suite 720<br>Toronto, ON<br>M5B 1J3</p>
               <p class="weight-thin">
-                Monday	9a.m.–7p.m.<br />
-                Tuesday	9a.m.–7p.m.<br />
-                Wednesday	9a.m.–7p.m.<br />
-                Thursday	9a.m.–7p.m.<br />
-                Sunday	9a.m.–7p.m.<br />
+                Monday	8a.m.–7p.m.<br />
+                Tuesday	8a.m.–7p.m.<br />
+                Wednesday	8a.m.–7p.m.<br />
+                Thursday	8a.m.–7p.m.<br />
+                Sunday	8a.m.–7p.m.<br />
               </p>
               <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d721.5876410469014!2d-79.38329847074728!3d43.66167846888923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b456ca3707%3A0xce7cbe25a7798a0c!2s2+Carlton+St+%23720%2C+Toronto%2C+ON+M5B+1J3!5e0!3m2!1sen!2sca!4v1536805991303' width='400' height='300' frameborder='0' style='border:0' id='googlemap'></iframe>
             </div>

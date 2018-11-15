@@ -16,6 +16,7 @@ include "../layouts/banner.php";
       <li>Organic virgin coconut oil</li>
       <li>Peppermint essential oil</li>
       <li>Eucalyptus essential oil</li>
+      <li>Rosemary essential oil</li>
     </ul>
     <b class="mt-3 block text-success">Instructions:</b>
     <ol>

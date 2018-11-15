@@ -21,7 +21,7 @@ include "../layouts/banner.php";
       <li>On moistened skin, massage oils and salt in circular motion from head to toe until oils are completely absorbed. Apply gently to face.</li>
       <li>Leave oils and salt on skin for at least 2 minutes. Continue massaging if desired.</li>
       <li>Rinse thoroughly with warm water and gently pat skin dry with a soft towel.</li>
-      <li>Repeat whenever desired.</li>
+      <li>Repeat once or twice a week.</li>
     </ol>
     <b class="mt-3 block text-success">Benefits:</b>
     <ul>

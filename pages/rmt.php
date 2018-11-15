@@ -3,7 +3,7 @@ $page_title = "Neshama Therapy: Registered Massage Therapy - RMT";
 include "../layouts/head.php";
 include "../layouts/nav.php";
 $banner_heading = "Registered Massage Therapy";
-$banner_text = "A variety of different massage services and techniques are available. Our Massage Techniques are tailored for your needs. Whether you have back pain, shoulder pain, stress or any other discomfort, our main goal is to help you in your healing process.";
+$banner_text = "A variety of different massage services and techniques are available! Our Massage treatments are tailored for your needs after a clinical assessment. Whether you have back pain, shoulder pain, stress or any other discomfort, our main goal is to help you in your healing process.";
 $banner_img_src = "/assets/rmt.jpeg";
 $title = "RMT Services";
 $description ="After your treatment, the therapist will consult with you regarding <span class='blue-border-bottom'>after-care and nutritional advice</span> for the best results.";

@@ -21,7 +21,7 @@ $response = $_POST["g-recaptcha-response"];
     header('Location: /index.php/failed-recaptcha');
   } else if ($captcha_success->success==true) {
     if(isset($_POST['submit'])){
-       $to = "chen@neshamatherapy.com";
+       $to = "chenweinberg@gmail.com";
        $from = $_POST['email'];
        $name = $_POST['name'];
        $subject = "Website - Form submission";

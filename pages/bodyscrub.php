@@ -13,12 +13,12 @@ include "../layouts/banner.php";
     <b class="pt-3 block text-success">Ingredients:</b>
     <ul>
       <li>Organic sweet almond oil</li>
-      <li>Coarse sea salt</li>
+      <li>Finely ground sea salt</li>
       <li>Essential Oils: tea tree, bergamot, ylang ylang and lavender</li>
     </ul>
     <b class="mt-3 block text-success">Instructions:</b>
     <ol>
-      <li>On moistened skin, massage oils and salt in circular motion from head to toe until oils are completely absorbed. Apply gently to face.</li>
+      <li>On moistened skin, gently massage oils and salt in circular motion on the body until oils are completely absorbed.</li>
       <li>Leave oils and salt on skin for at least 2 minutes. Continue massaging if desired.</li>
       <li>Rinse thoroughly with warm water and gently pat skin dry with a soft towel.</li>
       <li>Repeat whenever desired.</li>

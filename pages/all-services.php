@@ -3,7 +3,7 @@ $page_title = "Neshama Therapy: All Services - RMT and TCM";
 include "../layouts/head.php";
 include "../layouts/nav.php";
 $banner_heading = "Our Services";
-$banner_text = "A variety of different RMT massage services and Traditional Chinese Medicine treatments are available. Our techniques are tailored for your needs. Whether you have back pain, shoulder pain, stress or any other discomfort, our main goal is to help you in your healing process.";
+$banner_text = "A variety of different RMT massage services and Traditional Chinese Medicine treatments are available! Our techniques are tailored for your needs. Whether you have back pain, shoulder pain, stress or any other discomfort, our main goal is to help you in your healing process.";
 $banner_img_src = "https://s3.amazonaws.com/veewme.media/CACHE/images/tour_photos/295f8fcf-24eb-41b8-b379-562060dc1049/c4fb86ba22e0a096b3b0b35aa87b9029.JPG";
 $title = "For Your Wellness &amp; Healing";
 $description ="Our therapist cares about your wellbeing and will give nutritional and after-care advice after the treatment to ensure the best possible results.";
