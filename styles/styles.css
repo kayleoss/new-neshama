@@ -47,7 +47,8 @@ body main nav .navbar-toggler {
   border: none;
 }
 body .speech-bubble {
-  border-radius: 25px;
+  /*border-radius: 25px;*/
+  border-radius: 0;
   background-size: cover;
 }
 body .speech-bubble:nth-child(odd) {

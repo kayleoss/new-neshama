@@ -60,7 +60,8 @@ body {
     }
   }
   .speech-bubble {
-    border-radius: 25px;
+    /*border-radius: 25px;*/
+    border-radius: 0;
     background-size: cover;
   }
   .speech-bubble:nth-child(odd) {
