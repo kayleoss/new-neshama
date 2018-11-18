@@ -16,7 +16,6 @@
 
 body {
   font-size: 16px;
-  /* utilities */
 }
 body main {
   overflow-x: hidden;
@@ -47,7 +46,6 @@ body main nav .navbar-toggler {
   border: none;
 }
 body .speech-bubble {
-  /*border-radius: 25px;*/
   border-radius: 0;
   background-size: cover;
 }
