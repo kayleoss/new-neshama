@@ -1,5 +1,5 @@
 Katie Liu © 2018
-/Users/duoliu/Desktop/new-neshama/license.txt
+
 This software is owned by 
 Katie Liu 
 katie_acting@live.ca
@@ -8,8 +8,6 @@ http://katieliu.ca
 Neshama Therapy has been granted unlimited access to the use of this software with the following prohibitions:
 - distribution of this software for profit
 - use of this software in another project
-- making changes/additions to this software without approval from the creator
-
 
 
 All others are prohibited from using or copying code from this software.
