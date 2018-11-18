@@ -1,7 +1,7 @@
       <?php
         $navlink_style = "";
         $shadow = "";
-        $white_link_paths = array("/", "/index.php/", "/index", "/index/");
+        $white_link_paths = array("/", "/index.php/", "/index", "/index/", "/pages/hub", "/pages/hub.php", "/pages/hub?success", "/pages/hub?failure=short", "/pages/hub?failure=long", "/pages/hub#posts");
         if ( in_array( $_SERVER["REQUEST_URI"] , $white_link_paths) ) {
           $navlink_style = "color: #fff";
           $shadow = "box-shadow: none";

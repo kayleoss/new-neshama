@@ -1,13 +1,10 @@
 <?php 
 
 	$page_title = "Neshama Therapy: Hub - A place for health and wellness sharing";
-	$book_now_button = false;
-	$banner_heading = "Neshama Hub";
 	$banner_text = "A community for all discussion related to health & wellness, and if you have related comments/questions or would like to share health tips. Posts in this community are moderated daily, please be kind and respectful of others.";
-	$banner_img_src = "https://ar.unesco.org/sites/default/files/banner_ifap_938x488.jpg";
 	include "../layouts/head.php";
-	include "../layouts/nav.php";	
-	include "../layouts/banner.php";
+	
+	
 	include_once "../includes/db.php";
 
 	 $sql = 'SELECT * FROM posts;';
@@ -21,20 +18,29 @@
 	      $posts[] = $post;
 	    }
 	  }
-
-	 if (isset($_GET['success'])) {
-	 	echo "<p class='text-center mt-3 mb-0 text-success'>Post success</p>";
-	 } else if (isset($_GET['failure']) && $_GET['failure'] == 'short' ) {
-	 	echo "<p class='text-center mt-3 mb-0 text-danger'>Failed to submit. Post was too short.</p>";
-	 } else if (isset($_GET['failure']) && $_GET['failure'] == 'long' ) {
-	 	echo "<p class='text-center mt-3 mb-0 text-danger'>Failed to submit. Post must be under 8000 characters.</p>";
-	 }
 	 
 ?>
+<div class="why-neshama">
+<?php 
+include "../layouts/nav.php";
+?>
 <section class="row p-5">
+	<div class="container mb-4">
+		<h2 class="text-light weight-bold text-center mt-3 text-shadow">Neshama Hub</h2>
+		<h4 class="text-light text-shadow text-center">A community for all discussion related to health & wellness, related comments/questions and/or health tips. Posts in this community are moderated daily, please be kind and respectful of others.</h4>
+	</div>
+	<?php 
+		if (isset($_GET['success'])) {
+		 	echo "<p class='col-sm-12 text-center mt-3 mb-4 block text-color-piercing small-med-text'>Post success</p>";
+		 } else if (isset($_GET['failure']) && $_GET['failure'] == 'short' ) {
+		 	echo "<p class='col-sm-12 text-center mt-3 mb-4 block text-danger'>Failed to submit. Post was too short.</p>";
+		 } else if (isset($_GET['failure']) && $_GET['failure'] == 'long' ) {
+		 	echo "<p class='col-sm-12 text-center mt-3 mb-4 block text-danger'>Failed to submit. Post must be under 8000 characters.</p>";
+		 }
+	?>
 	<div class="col-sm-8">
-		<section class="row bg-main-transparent container product-border p-3 pb-3 mr-0 ml-0 pb-5">
-			<h3 class="text-center text-light col-sm-12 mt-3">Sharing & Discussion Board</h3>
+		<section class="row bg-transparent-light container p-3 pb-3 mr-0 ml-0 pb-5">
+			<h3 class="text-center text-light col-sm-12 mt-3 text-shadow">Sharing & Discussion Board</h3>
 			<div class="col-sm-8" id="posts">
 				<div class="row mt-3">
 					<?php foreach ($posts as $p): ?>
@@ -53,8 +59,8 @@
 		</section>
 	</div>
 	<div class="col-sm-4">
-		<section class="bg-main-transparent container product-border p-3 pb-5 mr-0 ml-0 text-center">
-			<h3 class="text-center text-light col-sm-12 mt-3">Resources</h3>
+		<section class="bg-transparent-light container p-3 pb-5 mr-0 ml-0 text-center">
+			<h3 class="text-center text-light col-sm-12 mt-3 text-shadow">Resources</h3>
 			<a href="/pages/firstvisit" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
 	        <i class="fas fa-link fa-2x text-info"></i>
 	        Your First Visit
@@ -88,6 +94,7 @@
 		<a href="mailto:neshamatherapy@gmail.com" class="btn btn-custom text-light mt-3">Apply for the Therapist Hub</a>
 	</div>
 </section>
+</div>
 <?php 
 	include "../layouts/footer.php";
 ?>
