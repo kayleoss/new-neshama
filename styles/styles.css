@@ -1,4 +1,6 @@
-/* variables */
+/* @author: Katie Liu
+    Last Modified: Nov 16, 2018
+*/
 .ui-dialog {
   border: 2px solid #7ea001;
   border-radius: 0;
@@ -17,8 +19,9 @@ body {
   /* utilities */
 }
 body main {
-  font-family: "Lato", sans-serif;
   overflow-x: hidden;
+  max-width: 100%;
+  font-family: "Lato", sans-serif;
 }
 body main .navbar-light .navbar-nav .nav-link {
   color: #7ea001;
@@ -43,6 +46,28 @@ body main nav .dropdown-menu .dropdown-item:hover {
 body main nav .navbar-toggler {
   border: none;
 }
+body .speech-bubble {
+  border-radius: 25px;
+  background-size: cover;
+}
+body .speech-bubble:nth-child(odd) {
+  background-color: #E1FAF8;
+  border: 3px solid #00b7ff;
+}
+body .speech-bubble:nth-child(even) {
+  background-color: #FAE1F0;
+  border: 3px solid #EA1E7B;
+}
+body .inline {
+  display: inline !important;
+}
+body button[type=submit] i:hover {
+  cursor: pointer;
+  color: #7ea001;
+}
+body button[disabled] {
+  color: #7ea001 !important;
+}
 @media (min-width: 900px) {
   body .large-container {
     width: 100%;
@@ -57,9 +82,6 @@ body main nav .navbar-toggler {
 @media (max-width: 500px) {
   body .hide-on-mobile {
     display: none;
-  }
-  body main {
-    max-width: 100%;
   }
 }
 body .banner {
@@ -93,6 +115,13 @@ body .wow {
 }
 body img {
   max-width: 100%;
+}
+body textarea.form-control {
+  border-radius: 0;
+  box-shadow: 2px 5px 0px #7ea001;
+}
+body .fb-page span {
+  margin-bottom: 2rem;
 }
 body .w-80 {
   width: 80%;

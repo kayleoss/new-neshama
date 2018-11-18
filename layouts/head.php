@@ -1,20 +1,14 @@
 <!doctype html>
-<?php
-  $current_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  if ($current_url !== "http://neshamatherapy.com/") {
-    echo "<!-- Designed and Built by Katie Liu - Last Updated October 2018 -->";
-  };
-?>
+<?php echo "<!-- Website created by Katie Liu - http://katieliu.ca -- Last updated " . date('M') . " " . date('Y') . " -->" ?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <?php
-      if ($page_title):
-        echo "<title>"  . $page_title .  "</title>";
-      else:
+    <?php if($page_title) {
+        echo "<title>" . $page_title . "</title>";
+      } else {
         echo "<title>Neshama Therapy: Registered Massage Therapy and Traditional Chinese Medicine</title>";
-      endif;
+      }
     ?>
     <meta name="description" content="Registered Massage Therapy treatment and Traditional Chinese Medicine in downtown Toronto.">
     <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/378800000652606043/136eab010b71b52b3bf7ea1e26c366ba_400x400.png">
@@ -49,7 +43,16 @@
     <link rel="stylesheet" href="/styles/animate.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/styles.css"  />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
     <body>
       <main>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=1499479603480098&autoLogAppEvents=1';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>

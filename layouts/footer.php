@@ -26,7 +26,7 @@
                   <a class="text-light" href="#" target="_blank"><i class="fa fa-yelp fa-2x"></i></a>
                 </div>
               </div>
-              <p><a class="text-primary text-light btn btn-custom" href="https://www.massagebook.com/profiles/publicBooking/1676236">Book Now</a></p>
+              <div class="fb-page mt-3 mb-3" data-href="https://www.facebook.com/neshamatherapy" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/neshamatherapy" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/neshamatherapy">Neshama Therapy</a></blockquote></div>
             </div>
             <div class="col-sm-4 text-light">
               <p class="weight-bold underline">Send An Inquiry</p>
@@ -82,11 +82,12 @@
         </div>
         <p class="text-light text-center small-text p-2 bg-main mb-0"><?php echo "&copy; Neshama Therapy " . date("Y")?> | <a href="../assets/privacy.pdf" target="_blank" class="text-light">Privacy Policy</a></p>
       </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <script src="/scripts/wow.min.js"></script>
       <script src="/scripts/script.js"></script>
       </body>
+      <?php echo "<!-- Website created by Katie Liu - http://katieliu.ca -- Last updated " . date('M') . " " . date('Y') . " -->" ?>
     </html>
+

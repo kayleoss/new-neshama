@@ -1,4 +1,6 @@
-/* variables */
+/* @author: Katie Liu
+    Last Modified: Nov 16, 2018
+*/
 $main-color: rgb(126, 160, 1);
 $main-color-transparent:  rgba(126, 160, 1, 0.7);
 $secondary-color: rgb(0, 183, 255);
@@ -25,10 +27,11 @@ $large: 3rem;
     border:none;
     border-radius:0;
 }
-
 body {
   font-size: 16px;
   main {
+    overflow-x:hidden;
+    max-width: 100%;
     .navbar-light .navbar-nav .nav-link {
       color: $main-color;
     }
@@ -56,6 +59,28 @@ body {
       }
     }
   }
+  .speech-bubble {
+    border-radius: 25px;
+    background-size: cover;
+  }
+  .speech-bubble:nth-child(odd) {
+    background-color: #E1FAF8;
+    border: 3px solid $secondary-color; 
+  }
+  .speech-bubble:nth-child(even) {
+    background-color: #FAE1F0;
+    border: 3px solid #EA1E7B; 
+  }
+  .inline {
+    display: inline !important;
+  }
+  button[type="submit"] i:hover {
+    cursor: pointer;
+    color: $main-color;
+  }
+  button[disabled] {
+    color: $main-color !important;
+  }
   @media (min-width: 900px) {
     .large-container {
       width: 100%;
@@ -70,10 +95,6 @@ body {
   @media (max-width: 500px) {
     .hide-on-mobile {
       display: none;
-    }
-    main {
-      max-width: 100%;
-      overflow-x:hidden;
     }
   }
   .banner {
@@ -105,6 +126,13 @@ body {
   }
   img {
     max-width: 100% ;
+  }
+  textarea.form-control {
+      border-radius: 0;
+      box-shadow: 2px 5px 0px $main-color;
+    }
+  .fb-page span {
+    margin-bottom: 2rem;
   }
 
   /* utilities */

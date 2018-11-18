@@ -6,6 +6,7 @@ include "../layouts/nav.php";
 $banner_img_src = "http://theartmad.com/wp-content/uploads/2015/08/Zen-Wallpaper-Backgrounds-17.jpg";
 $banner_heading = "Your First Visit";
 $banner_text = "For your convenience, before arriving at the clinic you may print and fill out the Acupuncture Health History Form and/or the Massage Health History Form. These Health Forms are completely confidential and will never be disclosed to anyone unless required by law.";
+$book_now_button = true;
 
 include "../layouts/banner.php";
 ?>
