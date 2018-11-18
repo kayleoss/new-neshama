@@ -73,7 +73,7 @@
   </div>
 </div>
 <section class="container pt-5 pb-3" id="product-section">
-  <h3 class="h3 text-center">Our Handmade Products</h3>
+  <h3 class="h3 text-center">Our Handmade Natural Products</h3>
   <p class="text-center font-italic text-secondary">Organic, Local, & Environmentally Friendly</p>
   <p>All of our products are <b class="text-info">100% natural, environmentally friendly, and made from local organic ingredients with love</b>. Each product helps create healing effects for the body, mind and soul. We accept PayPal for online orders. <br><br> <span class="blue-border-bottom">Please make sure you have updated your billing and shipping address in your PayPal account</span> before placing an online order. </p>
 </section>

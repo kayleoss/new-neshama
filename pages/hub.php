@@ -3,7 +3,7 @@
 	$page_title = "Neshama Therapy: Hub - A place for health and wellness sharing";
 	$book_now_button = false;
 	$banner_heading = "Neshama Hub";
-	$banner_text = "A community for all discussion related to health & wellness, and if you have related comments/questions or would like to share health tips";
+	$banner_text = "A community for all discussion related to health & wellness, and if you have related comments/questions or would like to share health tips. Posts in this community are moderated daily, please be kind and respectful of others.";
 	$banner_img_src = "https://ar.unesco.org/sites/default/files/banner_ifap_938x488.jpg";
 	include "../layouts/head.php";
 	include "../layouts/nav.php";	
@@ -31,25 +31,56 @@
 	 }
 	 
 ?>
-<section class="container p-5">
-	<section class="row bg-main-transparent container product-border p-3 pb-3 mr-0 ml-0">
-		<h3 class="text-center text-light col-sm-12 mt-3">Sharing & Discussion Board</h3>
-		<div class="col-sm-8" id="posts">
-			<div class="row mt-3">
-				<?php foreach ($posts as $p): ?>
-					<div class="col-sm-4 speech-bubble p-3">
-						<?php echo $p->text; ?>
-					</div>
-				<?php endforeach; ?>	
+<section class="row p-5">
+	<div class="col-sm-8">
+		<section class="row bg-main-transparent container product-border p-3 pb-3 mr-0 ml-0 pb-5">
+			<h3 class="text-center text-light col-sm-12 mt-3">Sharing & Discussion Board</h3>
+			<div class="col-sm-8" id="posts">
+				<div class="row mt-3">
+					<?php foreach ($posts as $p): ?>
+						<div class="col-sm-4 speech-bubble p-3">
+							<?php echo $p->text; ?>
+						</div>
+					<?php endforeach; ?>	
+				</div>
 			</div>
-		</div>
-		<div class="col-sm-4">
-			<form action="/includes/post-resolve.php" method="POST">
-				<textarea class="block form-control p-2 mt-3 mb-3 w-75 mr-auto ml-auto" data-text-input placeholder="Share what's on your mind..." name="input" required></textarea>
-				<button type="submit" class="navbar-toggler btn-custom-light block m-auto text-light" data-submit>Post</button>
-			</form>
-		</div>
-	</section>
+			<div class="col-sm-4">
+				<form action="/includes/post-resolve.php" method="POST">
+					<textarea class="block form-control p-2 mt-3 mb-3 w-75 mr-auto ml-auto" data-text-input placeholder="Share what's on your mind..." name="input" required></textarea>
+					<button type="submit" class="navbar-toggler btn-custom-light block m-auto text-light" data-submit>Post</button>
+				</form>
+			</div>
+		</section>
+	</div>
+	<div class="col-sm-4">
+		<section class="bg-main-transparent container product-border p-3 pb-5 mr-0 ml-0 text-center">
+			<h3 class="text-center text-light col-sm-12 mt-3">Resources</h3>
+			<a href="/pages/firstvisit" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+	        <i class="fas fa-link fa-2x text-info"></i>
+	        Your First Visit
+	      </a>
+	      <a href="/pages/rates" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+	        <i class="fas fa-link fa-2x text-info"></i>
+	        Service Rates
+	      </a>
+	      <a href="/pages/all-services" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+	        <i class="fas fa-link fa-2x text-info"></i>
+	        Our Services
+	      </a>
+			<a href="/assets/acupuncture-health-history.docx" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+		        <i class="fas fa-download fa-2x text-info"></i>
+		        Acupuncture Health Form
+		     </a><br>
+	      <a href="/assets/massage-health-history.pdf" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+	        <i class="fas fa-download fa-2x text-info"></i>
+	        Massage Health Form
+	      </a><br>
+	      <a href="/assets/privacy.pdf" target="_blank" class="p-3 border bg-light mt-3 inline-block text-info w-75">
+	        <i class="fas fa-download fa-2x text-info"></i>
+	        Privacy Policy
+	      </a>
+		</section>
+	</div>
 </section>
 <section class="mt-5 p-5 therapist-intro">
 	<div class="text-center">

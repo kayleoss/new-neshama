@@ -32,13 +32,13 @@
               <p class="weight-bold underline">Send An Inquiry</p>
               <form action="/layouts/contact-form.php" method="POST" class="form-group">
                 <label for="name">Your Name</label>
-                <input type="text" class="form-control" placeholder="Barbara Smith" required name="name"/>
+                <input type="text" class="form-control" placeholder="Barbara Smith" required name="name" aria-label="name"/>
                 <label for="phone" class="mt-2">Your Phone Number</label>
-                <input type="tel" class="form-control mt-2" placeholder="416-222-2222" required name="phone"/>
+                <input type="tel" class="form-control mt-2" placeholder="416-222-2222" required name="phone" aria-label="phone"/>
                 <label for="email" class="mt-2">Your Email Address</label>
-                <input type="email" class="form-control mt-2" placeholder="b.smith@gmail.com" required name="email"/>
+                <input type="email" class="form-control mt-2" placeholder="b.smith@gmail.com" required name="email" aria-label="email"/>
                 <label for="time-to-call" class="mt-2">Best Time For Us To Call You</label>
-                <select name="time-to-call" class="form-control mt-2">
+                <select name="time-to-call" class="form-control mt-2" aria-label="time to call">
                   <option value="8:00AM">8AM</option>
                   <option value="9:00AM">9AM</option>
                   <option value="10:00AM">10AM</option>
@@ -53,7 +53,7 @@
                   <option value="7:00PM">7PM</option>
                 </select>
                 <label for="message" class="mt-2">Enter A Message (optional)</label>
-                <textarea class="mt-2 form-control" placeholder="Interested in learning more..." name="message"></textarea>
+                <textarea class="mt-2 form-control" placeholder="Interested in learning more..." name="message" aria-label="message"></textarea>
                 <?php
                   $path = $_SERVER['REQUEST_URI'];
                   if (strpos ( $path, "failed-recaptcha") !== false ) {
@@ -66,7 +66,7 @@
               </form>
             </div>
             <div class="col-sm-4 text-light">
-              <p class="weight-bold underline">Our Hours Of Operation: </p>
+              <p class="weight-bold underline">Hours Of Operation: </p>
               <p class="weight-med mt-3">2 Carlton St, Suite 720<br>Toronto, ON<br>M5B 1J3</p>
               <p class="weight-thin">
                 Monday	8a.m.–7p.m.<br />

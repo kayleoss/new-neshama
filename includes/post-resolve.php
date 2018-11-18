@@ -1,7 +1,4 @@
 <?php 
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
 	include "../layouts/head.php";
 	include_once "../includes/db.php";
 	if (isset($_POST['input']) && strlen($_POST['input']) >= 10 && strlen($_POST['input']) < 8000 )  {

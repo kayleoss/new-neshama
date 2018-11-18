@@ -12,4 +12,4 @@ CREATE TABLE posts (
 INSERT INTO products (product_name, product_likes) VALUES ('bodyscrub', 0);
 INSERT INTO products (product_name, product_likes) VALUES ('facialcleanser', 0);
 INSERT INTO products (product_name, product_likes) VALUES ('footbalm', 0);
-INSERT INTO posts (text) VALUES ('I believe one way to stay healthy is to have a balanced and nutritional diet as well!');
+INSERT INTO posts (text) VALUES ('"I believe one way to stay healthy is to have a balanced and nutritional diet as well!"');
