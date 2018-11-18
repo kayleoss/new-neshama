@@ -16,6 +16,7 @@
 
 body {
   font-size: 16px;
+  /* utilities */
 }
 body main {
   overflow-x: hidden;
@@ -46,6 +47,7 @@ body main nav .navbar-toggler {
   border: none;
 }
 body .speech-bubble {
+  /*border-radius: 25px;*/
   border-radius: 0;
   background-size: cover;
 }
@@ -261,6 +263,9 @@ body .therapist-intro {
 }
 body .bg-light-transparent {
   background: rgba(255, 255, 255, 0.7);
+}
+body .bg-transparent-light {
+  background: rgba(187, 230, 254, 0.5) !important;
 }
 body .clinic-section {
   background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));

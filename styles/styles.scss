@@ -271,6 +271,9 @@ body {
   .bg-light-transparent {
     background: rgba(255, 255, 255, 0.7);
   }
+  .bg-transparent-light {
+    background: rgba(187, 230, 254, 0.5) !important;
+  }
   .clinic-section {
     background: $main-gradient;
   }
