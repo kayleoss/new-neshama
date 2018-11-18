@@ -32,10 +32,10 @@
 	 
 ?>
 <section class="container p-5">
-	<section class="row bg-main-transparent container product-border p-3">
+	<section class="row bg-main-transparent container product-border p-3 pb-3 mr-0 ml-0">
 		<h3 class="text-center text-light col-sm-12 mt-3">Sharing & Discussion Board</h3>
-		<div class="col-sm-8">
-			<div class="row mt-3 pb-3">
+		<div class="col-sm-8" id="posts">
+			<div class="row mt-3">
 				<?php foreach ($posts as $p): ?>
 					<div class="col-sm-4 speech-bubble p-3">
 						<?php echo $p->text; ?>
