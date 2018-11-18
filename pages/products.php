@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
-            <button type="submit" value="like" name="bodyscrub" class="border-0 text-primary bodyscrub" onclick="like('bodyscrub')">
+            <button type="submit" value="like" name="bodyscrub" class="border-0 text-primary bodyscrub bg-white" onclick="like('bodyscrub')">
               <i class="fa fa-thumbs-up fa-2x"></i>
             </button> 
             <p class="inline">
@@ -132,7 +132,7 @@
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
-            <button type="submit" value="like" name="facialcleanser" class="border-0 text-primary facialcleanser" onclick="like('facialcleanser')"><i class="fa fa-thumbs-up fa-2x"></i></button>
+            <button type="submit" value="like" name="facialcleanser" class="border-0 text-primary facialcleanser bg-white" onclick="like('facialcleanser')"><i class="fa fa-thumbs-up fa-2x"></i></button>
             <p class="inline">
               <?php 
                 if ($products[1]->likes == 1) {
@@ -163,7 +163,7 @@
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
-            <button type="submit" value="like" name="footbalm" class="border-0 text-primary footbalm" onclick="like('footbalm')"><i class="fa fa-thumbs-up fa-2x"></i></button>
+            <button type="submit" value="like" name="footbalm" class="border-0 text-primary footbalm bg-white" onclick="like('footbalm')"><i class="fa fa-thumbs-up fa-2x"></i></button>
             <p class="inline">
             <?php 
               if ($products[2]->likes == 1) {
