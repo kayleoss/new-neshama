@@ -1,7 +1,4 @@
 <?php 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 	$page_title = "Neshama Therapy: Hub - A place for health and wellness sharing";
 	$banner_text = "A community for all discussion related to health & wellness, and if you have related comments/questions or would like to share health tips. Posts in this community are moderated daily, please be kind and respectful of others.";
 	include "../layouts/head.php";
@@ -46,7 +43,7 @@ include "../layouts/nav.php";
 	<div class="col-sm-8">
 		<section class="row bg-transparent-light container p-5 mr-0 ml-0 pb-5">
 			<h3 class="text-center text-light col-sm-12 text-shadow">Sharing & Discussion Board</h3>
-			<div class="col-sm-12" id="posts">
+			<div class="col-sm-12">
 				<div class="row mt-3">
 					<?php foreach ($posts as $p): ?>
 						<div class="col-sm-4 speech-bubble pt-1 pb-1 pr-3 pl-3">

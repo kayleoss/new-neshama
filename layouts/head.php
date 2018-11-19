@@ -11,12 +11,12 @@
       }
     ?>
     <meta name="description" content="Registered Massage Therapy treatment and Traditional Chinese Medicine in downtown Toronto.">
-    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/378800000652606043/136eab010b71b52b3bf7ea1e26c366ba_400x400.png">
+    <link rel="icon" type="image/png" href="/assets/icon-logo.png">
     <link rel="canonical" href="http://neshamatherapy.com">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://neshamatherapy.com">
     <meta property="og:title" content="Neshama Therapy: Registered Massage Therapy and Traditional Chinese Medicine">
-    <meta property="og:image" content="https://pbs.twimg.com/profile_images/378800000652606043/136eab010b71b52b3bf7ea1e26c366ba_400x400.png">
+    <meta property="og:image" content="/assets/footer-background.jpg">
     <meta property="og:description" content="Registered Massage Therapy treatment and Traditional Chinese Medicine in downtown Toronto.">
     <meta property="og:site_name" content="Neshama Therapy">
     <meta property="og:locale" content="en_US">
@@ -28,7 +28,7 @@
     <meta name="twitter:url" content="https://neshamatherapy.com">
     <meta name="twitter:title" content="Neshama Therapy: RMT and TCM clinic in downtown Toronto">
     <meta name="twitter:description" content="Enjoy the benefits of healing with experienced RMT and acupuncturist Chen Weinberg.">
-    <meta name="twitter:image" content="https://example.com/image.jpg">
+    <meta name="twitter:image" content="/assets/icon-logo.png">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125819888-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
