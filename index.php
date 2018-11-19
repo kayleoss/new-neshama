@@ -17,7 +17,7 @@
 			<h2 class="text-center mt-3 mb-5 text-light text-shadow hide-on-mobile">Learn More About What We Do</h2>
 			<div class="row">
 				<div class="col-sm-4">
-					<img src="https://scontent.fyto1-1.fna.fbcdn.net/v/t31.0-8/11336914_10152905789036186_4013228155704226016_o.jpg?_nc_cat=111&oh=8369923bb2d95160b8b98ca5cdc7b02a&oe=5C1A6C24" class="box-shadow">
+					<img src="/assets/tcm.jpg" class="box-shadow">
 					<h4 class="mt-3 text-center text-light text-shadow">Traditional Chinese Medicine</h4>
 					<p class="weight-thin text-light">We use a combination of TCM methods tailored for your needs in order to help you in the healing process.</p>
 					<div class="text-center">
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<img src="https://scontent.fyto1-1.fna.fbcdn.net/v/t1.0-9/12032255_10153129633951186_7563896477300340393_n.jpg?_nc_cat=111&oh=717987e6a3a365fc99585a7a4f14d951&oe=5C1AB1B6" class="box-shadow">
+					<img src="/assets/bodyscrub.jpg" class="box-shadow">
 					<h4 class="mt-3 text-center text-light text-shadow">Handmade Unique Products</h4>
 					<p class="weight-thin text-light">We make balms and oils by hand! Get in touch with us or ask your therapist during the treatment to learn more.</p>
 					<div class="text-center">

@@ -14,10 +14,10 @@ $services[0]->text = "Classical Massage is a hands-on manipulation of the soft t
 $services[0]->image_src = "/assets/rmt.jpeg";
 $services[1]->name = "Sports Massage";
 $services[1]->text = "Sports Massage is designed to help athletes prepare their bodies for optimal performance, recover after a big event and function well during training. Sports Massage is highly recommended to any athlete, whether they are injured or not.";
-$services[1]->image_src = "http://neshamatherapy.com/static/media/swedish.16ac3d70.jpg";
+$services[1]->image_src = "/assets/swedish.jpg";
 $services[2]->name = "Pregnancy Massage";
 $services[2]->text = "Pregnancy Massage is specifically tailored for the expectant mother’s needs. Many women suffer from aches and pains, stiffness and tension during pregnancy. Gentle massage can help to relieve problems such as backache, sleep disorders, edema, headaches and other complaints associated with bodily changes due to pregnancy.";
-$services[2]->image_src = "http://www.soonmaternity.com/www/665/files/lismoreantenatal.jpg";
+$services[2]->image_src = "/assets/pregnancy.jpg";
 
 include "../layouts/banner.php";
 include "../layouts/service-layout.php";

@@ -32,11 +32,11 @@ $services[4]->image_src = "/assets/rmt.jpeg";
 
 $services[5]->name = "Sports Massage";
 $services[5]->text = "Sports Massage is designed to help athletes prepare their bodies for optimal performance, recover after a big event and function well during training. Sports Massage is highly recommended to any athlete, whether they are injured or not.";
-$services[5]->image_src = "http://neshamatherapy.com/static/media/swedish.16ac3d70.jpg";
+$services[5]->image_src = "/assets/swedish.jpg";
 
 $services[6]->name = "Pregnancy Massage";
 $services[6]->text = "Pregnancy Massage is specifically tailored for the expectant mother’s needs. Many women suffer from aches and pains, stiffness and tension during pregnancy. Gentle massage can help to relieve problems such as backache, sleep disorders, edema, headaches and other complaints associated with bodily changes due to pregnancy.";
-$services[6]->image_src = "http://www.soonmaternity.com/www/665/files/lismoreantenatal.jpg";
+$services[6]->image_src = "/assets/pregnancy.jpg";
 
 $services[7]->name = "Chinese Foot Reflexology";
 $services[7]->text = "A form of traditional Chinese medicine, Chinese foot reflexology is the ancient art of working the meridian lines and pressure points on the feet corresponds to different parts of the body. Chinese foot reflexology is believed to stimulate elimination, improve circulation, support the immune system, restore the body’s equilibrium of Yin and Yang, encourage healing and strengthens the body.";

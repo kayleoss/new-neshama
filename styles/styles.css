@@ -47,7 +47,6 @@ body main nav .navbar-toggler {
   border: none;
 }
 body .speech-bubble {
-  /*border-radius: 25px;*/
   border-radius: 0;
   background-size: cover;
 }
@@ -56,8 +55,8 @@ body .speech-bubble:nth-child(odd) {
   border: 3px solid #00b7ff;
 }
 body .speech-bubble:nth-child(even) {
-  background-color: #FAE1F0;
-  border: 3px solid #EA1E7B;
+  background-color: #FFF3FC;
+  border: 3px solid #B51B92;
 }
 body .inline {
   display: inline !important;
@@ -117,7 +116,7 @@ body .wow {
 body img {
   max-width: 100%;
 }
-body textarea.form-control {
+body .post-form .form-control {
   border-radius: 0;
   box-shadow: 2px 5px 0px #7ea001;
 }
@@ -248,7 +247,7 @@ body .bg-light-opaque {
 }
 body .home {
   width: 100%;
-  background: url("https://storage.googleapis.com/blog-setmore/1/spa-banner.png");
+  background: url("/assets/spa-banner.png");
   background-size: cover;
 }
 @media (min-width: 500px) {
@@ -257,7 +256,7 @@ body .home {
   }
 }
 body .therapist-intro {
-  background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-101405.jpg");
+  background: url("/assets/gradient.jpg");
   background-size: cover;
   background-position: center bottom;
 }
@@ -271,7 +270,7 @@ body .clinic-section {
   background: -webkit-linear-gradient(left bottom, rgba(126, 160, 1, 0.7), rgba(0, 82, 155, 0.95));
 }
 body .why-neshama {
-  background: url("http://aimnaturalhealing.com/wp-content/uploads/2016/08/bigstock-Spa-still-life-with-water-lily-67474792-e1471659966904.jpg");
+  background: url("/assets/flower-stone.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
