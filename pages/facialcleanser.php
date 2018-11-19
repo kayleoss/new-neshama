@@ -3,7 +3,7 @@ include "../layouts/head.php";
 include "../layouts/nav.php";
 
 $banner_img_src = "../assets/facialcleanser.jpg";
-$banner_heading = "Hand-Crafted Natural Healing Scrub";
+$banner_heading = "Hand-Crafted Natural Facial Cleanser";
 $banner_text = "Nourishing, Detoxifying, Purifying, Rejuvenating … All-in-one!";
 $book_now_button = false;
 include "../layouts/banner.php";

@@ -5,9 +5,9 @@
 		<div class="text-center">
 			<h1 class="blue-border-bottom inline-block mt-5 weight-bold wow fadeIn mobile-no-margin">Restore & Rejuvenate</h1>
 		</div>
-		<p class="text-center small-med-text text-light weight-med col-md-6 m-auto wow fadeIn text-shadow pt-2 pb-2" data-wow-delay="0.2s">Get Registered Massage Therapy and Traditional Chinese Medicine treatment at Neshama Therapy in the heart of downtown Toronto. Browse all our natural, organic, local body products online. Your health and wellness is our #1 concern!</p>
+		<p class="text-center small-med-text text-light weight-med col-md-6 m-auto wow fadeIn text-shadow pt-2 pb-2" data-wow-delay="0.2s">Get Registered Massage Therapy and Traditional Chinese Medicine treatment at Neshama Therapy in the heart of downtown Toronto. Browse all our natural, organic, local products online. Your health and wellness is our #1 concern!</p>
 		<div class="col-sm-12 mt-3 text-center">
-			<a href="https://www.massagebook.com/profiles/publicBooking/1676236" class="btn btn-custom-light text-light" target="_blank">Book Now</a>
+			<a href="/pages/products" class="btn btn-custom-light text-light">See Our Products</a>
 			<a href="/pages/all-services" class="btn btn-custom text-light ml-3">See Our Services</a>
 		</div>
 	</div>

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <?php if($page_title) {
+    <?php if(isset($page_title)) {
         echo "<title>" . $page_title . "</title>";
       } else {
         echo "<title>Neshama Therapy: Registered Massage Therapy and Traditional Chinese Medicine</title>";

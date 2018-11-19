@@ -2,28 +2,23 @@
 	$page_title = "Neshama Therapy: Hub - A place for health and wellness sharing";
 	$banner_text = "A community for all discussion related to health & wellness, and if you have related comments/questions or would like to share health tips. Posts in this community are moderated daily, please be kind and respectful of others.";
 	include "../layouts/head.php";
-	
-	
 	include_once "../includes/db.php";
 
-	 $sql = 'SELECT * FROM posts;';
-	 $result = mysqli_query($conn, $sql);
-	 $posts = [];
+	$sql = 'SELECT * FROM posts;';
+	$result = mysqli_query($conn, $sql);
+	$posts = [];
 
-	 if (mysqli_num_rows($result) > 0) {
-	    while ($row = mysqli_fetch_assoc($result)) {
-	      $post = new stdClass();
-	      $post->text = $row['text'];
-	      $post->author = $row['author'];
-	      $posts[] = $post;
-	    }
-	  }
-	 
+	if (mysqli_num_rows($result) > 0) {
+		while ($row = mysqli_fetch_assoc($result)) {
+			$post = new stdClass();
+			$post->text = $row['text'];
+			$post->author = $row['author'];
+			$posts[] = $post;
+		}
+	}
 ?>
 <div class="why-neshama">
-<?php 
-include "../layouts/nav.php";
-?>
+<?php include "../layouts/nav.php"; ?>
 <section class="row p-5">
 	<div class="container mb-4">
 		<h2 class="text-light weight-bold text-center mt-3 text-shadow">Neshama Hub</h2>
@@ -101,6 +96,4 @@ include "../layouts/nav.php";
 	</div>
 </section> -->
 </div>
-<?php 
-	include "../layouts/footer.php";
-?>
+<?php include "../layouts/footer.php"; ?>
