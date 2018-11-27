@@ -41,8 +41,10 @@
 			<div class="col-sm-12">
 				<div class="row mt-3">
 					<?php foreach ($posts as $p): ?>
-						<div class="col-sm-4 speech-bubble pt-1 pb-1 pr-3 pl-3">
-							<?php echo "<hr>" . $p->text . "<br><p class='text-right mb-0 font-italic'>" . "-" . $p->author . "</p><hr>"; ?>
+						<div class="col-sm-4">
+							<div class="speech-bubble pt-2 pb-1 pr-3 pl-3 mt-3">
+							<?php echo $p->text . "<br><p class='text-right mb-0 font-italic'>" . "-" . $p->author . "</p>"; ?>
+							</div>
 						</div>
 					<?php endforeach; ?>	
 				</div>
@@ -54,7 +56,7 @@
 			<div class="bg-transparent-light p-3">
 				<h3 class="text-center text-light col-sm-12 mt-3 text-shadow">Create A Post</h3>
 				<form action="/includes/post-resolve.php" method="POST" class="col-sm-12 block post-form">
-					<input type="text" class="form-control w-75 mt-3 mr-auto ml-auto" name="author" placeholder="Enter your name or identifer" required>
+					<input type="text" class="form-control w-75 mt-3 mr-auto ml-auto" name="author" placeholder="Your name/identifier" required>
 					<textarea class="block form-control p-2 mt-3 mb-3 w-75 mr-auto ml-auto" placeholder="Share what's on your mind..." name="input" required></textarea>
 					<button type="submit" class="navbar-toggler btn-custom-light block m-auto text-light" data-submit>Post</button>
 				</form>

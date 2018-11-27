@@ -49,14 +49,9 @@ body main nav .navbar-toggler {
 body .speech-bubble {
   border-radius: 0;
   background-size: cover;
-}
-body .speech-bubble:nth-child(odd) {
-  background-color: #E1FAF8;
-  border: 3px solid #00b7ff;
-}
-body .speech-bubble:nth-child(even) {
-  background-color: #FFF3FC;
-  border: 3px solid #B51B92;
+  box-shadow: 1px 3px 8px #204e5c;
+  background: white;
+  border-radius: 5px;
 }
 body .inline {
   display: inline !important;

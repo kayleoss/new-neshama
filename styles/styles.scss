@@ -62,14 +62,17 @@ body {
   .speech-bubble {
     border-radius: 0;
     background-size: cover;
+    box-shadow: 1px 3px 8px rgb(32, 78, 92);
+    background: white;
+    border-radius: 5px;
   }
   .speech-bubble:nth-child(odd) {
-    background-color: #E1FAF8;
-    border: 3px solid $secondary-color; 
+    // background-color: #E1FAF8;
+    // border: 3px solid $secondary-color; 
   }
   .speech-bubble:nth-child(even) {
-    background-color: #FFF3FC;
-    border: 3px solid #B51B92; 
+    // background-color: #FFF3FC;
+    // border: 3px solid #B51B92; 
   }
   .inline {
     display: inline !important;
