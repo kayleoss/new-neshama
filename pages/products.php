@@ -178,6 +178,6 @@
       </div>
     </div>
   </div>
-  <p class="mt-3 pt-3 pb-3 mb-3 text-center text-info weight-bold">You may also choose to place orders in person with a therapist. Our clinic is located at 2 Carlton St, Suite 720. </p>
+  <p class="mt-3 pt-3 pb-3 mb-3 text-center text-info weight-bold">You may also choose to place orders in person with a therapist. Our clinic is located at 2 Carlton St, Suite 720, Toronto ON. </p>
 </section>
 <?php include "../layouts/footer.php" ?>

@@ -2,7 +2,7 @@
 $page_title = "Neshama Therapy: Rates and Pricing";
 include "../layouts/head.php";
 include "../layouts/nav.php";
-
+$book_now_button= true;
 $banner_img_src = "https://scontent.fyto1-1.fna.fbcdn.net/v/t31.0-8/24297534_10155079541856186_3838485271812979892_o.jpg?_nc_cat=0&oh=32eb7aeb999d701d4588a8acc945294f&oe=5C6321EF";
 $banner_heading = "Our Rates & Pricing";
 $banner_text = "We accept a variety of payment options: debit, credit, cash, cheque, and e-transfer. We are able to <b>provide paper or electronic receipts</b> for each treatment, whether it is for massage or acupuncture! Additionally, gift cards are available for purchase. See the table below for our rates.";
