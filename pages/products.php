@@ -73,6 +73,13 @@
   </div>
 </div>
 <section class="container pt-5 pb-3" id="product-section">
+  <?php 
+    if ($_GET['purchase'] == 'failed') {
+      echo "<p class='text-center mt-3 mb-5 text-danger'>Purchase Failed. Please Try Again.</p>";
+    } else if ($_GET['purchase'] == 'success') {
+      echo "<p class='text-center mt-3 mb-5 text-success'>Thank you for your purchase.</p>";
+    }
+  ?>
   <h3 class="h3 text-center">Our Handmade Natural Products</h3>
   <p class="text-center font-italic text-secondary">Organic, Local, & Environmentally Friendly</p>
   <p>All of our products are <b class="text-info">100% natural, environmentally friendly, and made from local organic ingredients with love</b>. Each product helps create healing effects for the body, mind and soul. We accept PayPal for online orders. <br><br> <span class="blue-border-bottom">Please make sure you have updated your billing and shipping address in your PayPal account</span> before placing an online order. </p>
@@ -94,7 +101,11 @@
           <div class="text-center row m-auto">
             <div class="container">
               <a href="/pages/bodyscrub" target="_blank" class="btn btn-custom-light text-light m-auto">Read More</a>
-              <a href="#" target="_blank" class="btn btn-custom text-light m-auto">Order Now</a>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="inline">
+                <input type="hidden" name="cmd" value="_s-xclick"> 
+                <input type="hidden" name="hosted_button_id" value="ZQ922ZA5CP9AQ">
+                <input type="submit" class="btn btn-custom text-light" value="Buy now" name="bodyscrub" title="Buy now with paypal">
+              </form>
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
@@ -128,7 +139,11 @@
           <div class="text-center row m-auto">
             <div class="container">
               <a href="/pages/facialcleanser" target="_blank" class="btn btn-custom-light text-light m-auto">Read More</a>
-              <a href="#" target="_blank" class="btn btn-custom text-light m-auto">Order Now</a>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="inline">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="X8CR54PXFJ5QE">
+                <input type="submit" value="Buy now" class="btn btn-custom text-light" name="facialcleanser" title="Buy now with paypal">
+              </form>
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
@@ -159,7 +174,11 @@
           <div class="text-center row m-auto">
             <div class="container">
               <a href="/pages/footbalm" target="_blank" class="btn btn-custom-light text-light m-auto">Read More</a>
-              <a href="#" target="_blank" class="btn btn-custom text-light m-auto">Order Now</a>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="inline">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="7NH8HXM6WSTDE">
+                <input type="submit" value="Buy now" class="btn btn-custom text-light" name="footbalm" title="Buy now with paypal">
+              </form>
             </div>
           </div>
           <div class="text-center mt-2 weight-bold">
