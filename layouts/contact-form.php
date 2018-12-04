@@ -30,7 +30,7 @@ $response = $_POST["g-recaptcha-response"];
        $headers = "From:" . $from;
        $mail = mail($to,$subject,$message,$headers);
        if ($mail) {
-         header('Location: ../pages/thank_you.php');
+         header('Location: /pages/thank-you/');
        }
      }
   };

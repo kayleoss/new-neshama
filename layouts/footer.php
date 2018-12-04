@@ -57,9 +57,9 @@
                 <?php
                   $path = $_SERVER['REQUEST_URI'];
                   if (strpos ( $path, "failed-recaptcha") !== false ) {
-                    echo "<div class='g-recaptcha mt-3' data-sitekey='6LcdKnAUAAAAAC78djquqSf42DyrKnSlbqjAWckA'></div>" . "<p class='mt-2 mb-2 text-warning'>ReCaptcha Attempt was unsuccessful.</p>";
+                    echo "<div class='g-recaptcha mt-3' data-sitekey=''></div>" . "<p class='mt-2 mb-2 text-warning'>ReCaptcha Attempt was unsuccessful.</p>";
                   } else {
-                    echo "<div class='g-recaptcha mt-3 mb-3' data-sitekey='6LcdKnAUAAAAAC78djquqSf42DyrKnSlbqjAWckA'></div>";
+                    echo "<div class='g-recaptcha mt-3 mb-3' data-sitekey=''></div>";
                   };
                 ?>
                 <button type="submit" name="submit" class="btn btn-custom mt-4 text-light m-auto block">Send</button>

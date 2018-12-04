@@ -1,1 +1,4 @@
 .DS_Store
+includes/db-initialize.sql
+includes/db.php
+analytics.txt
