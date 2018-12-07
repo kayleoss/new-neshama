@@ -2,7 +2,7 @@
         $navlink_style = "";
         $shadow = "";
         $white_link_paths = array("/", "/index.php/", "/index", "/index/", "/pages/hub", "/pages/hub.php", "/pages/hub?success", "/pages/hub?failure=short", "/pages/hub?failure=long", "/pages/hub#posts", "/pages/hub?failure=shortname");
-        if ( in_array( $_SERVER["REQUEST_URI"] , $white_link_paths) || strpos($_SERVER["REQUEST_URI"], "?fbclid") !== false )  {
+        if ( in_array( $_SERVER["REQUEST_URI"] , $white_link_paths) || strpos($_SERVER["REQUEST_URI"], "?fbclid") === false )  {
           $navlink_style = "color: #fff";
           $shadow = "box-shadow: none";
         }
